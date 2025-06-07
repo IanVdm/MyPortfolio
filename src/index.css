@@ -3,12 +3,12 @@
 @theme {
   /* General colours */
   --color-border: (var(--border));
-  --color-background: (var(--background));
-  --color-foreground: (var(--foreground));
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
 
   /* Primary text colours */
   --color-primary: (var(--primary));
-  --color-primary-foregraound: (var(--primary-foreground));
+  --color-primary-foreground: (var(--primary-foreground));
 
   /* Skills section cards */
   --color-card: (var(--card));
@@ -71,15 +71,17 @@
 }
 
 @layer base {
+  /* HEX: #272329 */
+
   :root {
-    --background: #272329;
-    --foreground: #FFFFFF;
+    --background: 0 0% 100%; 
+    --foreground: 280 8% 15%;
     --border: linear-gradient(to right, #2096DF, #A31FF0);
   }
 
-  .light {
-    --background: #FFFFFF;
-    --foreground: #272329;
+  html.dark {
+    --background: 280 8% 15%;
+    --foreground: 0 0% 100%;
     --border: linear-gradient(to right, #2096DF, #A31FF0);
   }
 
@@ -139,8 +141,8 @@
 }
 
 @utility cosmic-button {
-  @apply px-6 py-2 rounded-full bg-primary text-primary-foregraound font-medium
-          transition-all duration-300 hover:shadow-[0_0_10px_rgba(139, 92, 246, 0.5)]
+  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium
+          transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)]
           hover:scale-105 active:scale-95;
 }
 
