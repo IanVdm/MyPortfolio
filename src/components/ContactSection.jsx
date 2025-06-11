@@ -43,7 +43,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-mdium"> Location</h4>
-                  <a className="text-muted-foreground hover:text-primary transition-colors">Laren, LX, Netherlands</a>
+                  <p className="text-muted-foreground hover:text-primary transition-colors">Laren, LX, Netherlands</p>
                 </div>
               </div>
             </div>

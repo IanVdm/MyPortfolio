@@ -16,10 +16,9 @@ export const HeroSection = () => {
           <span className="text-2xl font-bold ml-2 opacity-0 animate-fade-in-delay-2"> A Software Engineer</span>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Sed sed consectetur nibh, ac vehicula nisl. 
-            Ut tempus urna dictum risus pretium vulputate. Proin quis ultrices lectus. 
-            Nullam eget mauris ullamcorper, hendrerit sem vitae, dapibus nisl.
+            I am a passionate software engineer who thrives on solving complex problems and crafting clean, efficient code.
+            I enjoy building scalable, user-focused applications and continuously exploring new technologies.
+            This portfolio highlights my approach to development—emphasizing thoughtful design, technical precision, and a commitment to continual learning.
           </p>
 
           <div className="pt-5 opacity-0 animate-fade-in-delay-4 ">
