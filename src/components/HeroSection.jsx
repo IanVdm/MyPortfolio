@@ -6,7 +6,7 @@ export const HeroSection = () => {
     <section id="Home" className="relative min-h-screen flex flex-col itmes-center justify-center px-4">
       <div className="container max-w-4xl mx-auto text-center z-10 mb-20">
         <div className="flex flex-col items-center space-y-6">
-          {/* <img src={PortfolioLogo} alt="Logo" className="w-30 h-auto" /> */}
+          <img src={PortfolioLogo} alt="Logo" className="w-30 h-auto" />
 
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>

@@ -95,7 +95,8 @@
     --primary-foreground: 213 31% 91%;
     --gradient: linear-gradient(to right, hsl(203,75%,50%), hsl(278,87%,53%));
 
-    --card: 222 47% 8%;
+    /* 222 47% 8% */
+    --card: 280 8% 15%;
 
     --border: 217 33% 20%;
   }
