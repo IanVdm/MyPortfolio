@@ -56,7 +56,7 @@ export const ContactSection = () => {
             </div>
           </div>
 
-          <div className="bg-card p-2 rounded-lg shadow-xs">
+          <div className="bg-primary/5 p-5 rounded-lg shadow-xs">
             <h3 className="text-2xl font-semibold mb-8">Send a Message</h3>
 
             <form action="" className="sapce-y-6">
