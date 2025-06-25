@@ -55,7 +55,7 @@ export const ProjectDetails = ({ project, onClose }) => {
           {project.image?.length > 1 && (
             <div>
               <h3 className="text-xl font-semibold mb-2">Screenshots</h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 {project.image.slice(2).map((img, idx) => (
                   <img
                     key={idx}
